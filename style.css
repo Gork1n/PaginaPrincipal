@@ -1,0 +1,303 @@
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cuerpo {
+    background-color: #28242c;
+}
+
+.tarjeta {
+    width: 20rem;
+    height: 34rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+.tarjeta img {
+    width: 20rem;
+    height: 19.5rem;
+}
+
+.tarjeta .botones {
+    margin: 1.3rem .5rem .2rem .5rem;
+}
+
+.tarjeta .botones input[type="button"] {
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.tarjeta .botones input[type="button"]:hover {
+    padding: 0.2rem 0.8rem;
+}
+
+.tarjeta .botones .btnAmarillo {
+    background-color: rgb(255, 193, 8);
+    border: none;
+    border-radius: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+.tarjeta .botones .btnAzul {
+    background-color: #18a3ba;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.tarjeta .titulo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: .2rem .5rem 0.9rem .5rem;
+}
+
+.tarjeta .texto {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    text-align: justify;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta .botones .btnGris {
+    background-color: rgb(168, 168, 168);
+    border: none;
+    border-radius: 0.2rem;
+    margin-right: 0.3rem;
+    color: white;
+}
+
+.tarjeta .botones .btnRojo {
+    background-color: rgb(214, 46, 46);
+    border: none;
+    border-radius: 0.2rem;
+    margin-right: 0.3rem;
+    color: white;
+}
+
+.to {
+    display: flex;
+    justify-content: center;
+}
+
+#conoce {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+#orador {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#ancho {
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#ancho:hover {
+    background-color: rgb(192, 173, 3);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#barra {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.imgf {
+    width: 100%;
+    height: 53em;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.contenedor {
+    width: 100%;
+    height: 53em;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 10em;
+    left: 2em;
+    margin-left: 0;
+    margin-top: 20em;
+    margin-right: 50%;
+}
+
+.conf {
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.llega {
+    color: white;
+    margin-bottom: 1em;
+}
+
+#transparente {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.4em 0.6em;
+    margin-right: 1em;
+    color: white;
+    transition: all;
+    transition-duration: 0.3s;
+    margin-bottom: 1em;
+}
+
+#verde {
+    cursor: pointer;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    padding: 0.4em 0.6em;
+    margin-right: 1em;
+    color: white;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#transparente:hover {
+    padding: 0.4em 1.5em;
+}
+
+#verde:hover {
+    padding: 0.4em 1.5em;
+}
+
+
+.contenedor-2 {
+    display: flex;
+}
+
+.imgfl {
+    width: 50%;
+}
+
+.margin {
+    color: white;
+    margin: 1em;
+}
+
+.textofl {
+    width: 50%;
+    background-color: #28242c;
+}
+
+.titulobs {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.god {
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 755px){
+
+.texto-encima{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 81%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 10em;
+}
+
+
+}
+
+@media only screen and (max-width: 779px) {
+
+    .contenedor-2 {
+        display: inline-block;
+    }
+
+    .margin {
+        margin-top: 0;
+    }
+
+    .imgfl {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .textofl {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.nashe{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.contenedor-3{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-3 input{
+    margin: 1em;
+    width: 20em;
+}
+
+.textoc {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    flex-wrap:wrap;
+}
+
+.textoc textarea{
+    width: 42em;
+    height: 10em;
+    margin: 0.5em 1em;
+}
+
+.contenedorb{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.boton5{
+    width: 42em;
+    height: 2em;
+    background-color: rgb(61, 167, 61);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}

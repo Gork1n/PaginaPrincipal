@@ -1,0 +1,46 @@
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cuerpo {
+    background-color: #28242c;
+}
+
+.cuerpo{
+    background-color: #4e4e4e;
+}
+
+.texto{
+    color: white;
+    font-size: 2em;
+}
+
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    margin: 1em 5em;
+}
+
+@media only screen and (max-width: 971px) {
+
+    .texto{
+        font-size: 1em;
+    }
+    .cuadrado{
+        margin-top: 20%;
+    }
+
+}
+
+#ancho {
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#ancho:hover {
+    background-color: rgb(192, 173, 3);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+

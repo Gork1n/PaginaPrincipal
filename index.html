@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a Codo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/codoacodo.png">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <div class="container-fluid" id="cuerpo"> <!--Barra-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="barra">
+            <div class="container-fluid d-flex">
+            
+                <div>
+                    <img src="img/codoacodo.png" alt="" class="img-fluid" width="130" height="70">
+                    <a class="navbar-brand text-light" href="#">Conf Bs As</a>
+                </div>
+            
+                <div class="justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#Conferencia" id="ancho">La conferencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#Oradoress" id="ancho">Los oradores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#octubre" id="ancho">Lugar y fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#convertirte" id="ancho">Conviertete en orador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="C:\Users\Mateo\Desktop\Tp integrador\Comprar Tickets\CT.html" id="ancho">Comprar Tickets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="contenedor" id="Conferencia"> <!--Conferencia-->
+        <img src="img/ba1.jpg" class="imgf">
+        <div class="texto-encima">
+            <div class="conf">Conf Bs As</div>
+            <div class="llega">Bs As llega por primera vez a argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</div>
+            <div>
+                <a href="#convertirte">
+                <input type="button" value="Quiero ser Orador" id="transparente">
+                </a>
+                <a href="C:\Users\Mateo\Desktop\Tp integrador\Comprar Tickets\CT.html">
+                <input type="button" value="Comprar Tickets" id="verde">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="Oradoress"> <!--Oradores-->
+        <div id="conoce">CONOCE A LOS</div>
+        <div id="orador">ORADORES</div>
+        <div class="oradores">
+            <div class="tarjeta">
+                <img src="img/steve.jpg" alt="Steve Jobs">
+                <div class="botones">
+                    <input type="button" value="JavaScript" class="btnAmarillo">
+                    <input type="button" value="React" class="btnAzul">
+                </div>
+                <div class="titulo">Steve Jobs</div>
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis culpa doloremque, provident atque aperiam aliquid quasi similique totam dicta nesciunt temporibus voluptate laborum magnam magni. Voluptatem magnam libero exercitationem!</div>
+            </div>
+
+            <div class="tarjeta">
+                <img src="img/bill.jpg" alt="Steve Jobs">
+                <div class="botones">
+                    <input type="button" value="JavaScript" class="btnAmarillo">
+                    <input type="button" value="React" class="btnAzul">
+                </div>
+                <div class="titulo">Bill Gates</div>
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis culpa doloremque, provident atque aperiam aliquid quasi similique totam dicta nesciunt temporibus voluptate laborum magnam magni. Voluptatem magnam libero exercitationem!</div>
+            </div>
+        
+            <div class="tarjeta">
+                <img src="img/ada.jpeg" alt="Steve Jobs">
+                <div class="botones">
+                    <input type="button" value="Negocios" class="btnGris">
+                    <input type="button" value="Startups" class="btnRojo">
+                </div>
+                <div class="titulo">Ada Lovelace</div>
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis culpa doloremque, provident atque aperiam aliquid quasi similique totam dicta nesciunt temporibus voluptate laborum magnam magni. Voluptatem magnam libero exercitationem!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor-2" id="octubre"> <!--Octubre-->
+        <img src="img/honolulu.jpg" class="imgfl">
+
+        <div class="textofl">
+            <div class="margin">
+                <div class="titulobs">Bs As - Octubre</div>
+                <div class="textobs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur molestias fuga similique modi, a veniam magni consectetur optio, perferendis, laborum asperiores nam itaque? Neque error non ex ipsa! Itaque, accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur molestias fuga similique modi, a veniam magni consectetur optio, perferendis, laborum asperiores nam itaque? Neque error non ex ipsa! Itaque, accusantium!</div>    
+                <input type="button" value="Conoce mas" id="transparente" class="god">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="convertirte"> <!-- Formulario-->
+        <div id="conoce">CONVIERTETE EN UN</div>
+        <div id="orador">ORADOR</div>
+        <div class="nashe">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</div>
+        <form>
+            <div class="contenedor-3">
+                <input type="nombre" name="" placeholder="Nombre">
+                <input type="apellido" name="" placeholder="Apellido">
+            </div>
+            <div class="textoc">
+                <textarea placeholder="Sobre que quieres hablar?"></textarea>
+            </div>
+        </form>
+        <div class="contenedorb">
+            <input type="button" value="Enviar" class="boton5">
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+
+
+
+</body>
+<footer>
+    <div class="container-fluid" id="cuerpo"> <!--Barra-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="footer">
+            <div class="container-fluid d-flex">
+    
+
+                <div class="justify-content-between">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#" id="ancho">Preguntas frecuentes</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#" id="ancho">Contactanos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#" id="ancho">Terminos y Condiciones</a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</footer>
+</html>
