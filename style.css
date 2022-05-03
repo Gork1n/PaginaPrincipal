@@ -301,3 +301,18 @@
     color: white;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 431px) {
+
+    .ajuste{
+        margin-right: -1.9em;
+
+}
+
+
+@media only screen and (max-width: 402px) {
+
+    .ajuste{
+        margin-right: -7em;
+
+}
