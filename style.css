@@ -316,3 +316,11 @@
         margin-right: -7em;
     }
 }
+
+.tarjeta:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: pulse;
+    animation-duration: 2s;
+}
